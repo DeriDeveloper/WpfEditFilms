@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfEditFilms.LoadingStartUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEditFilms"
+        mc:Ignorable="d"
+        Title="Загрузка"
+        MinHeight="80" Height="80" MaxHeight="80"
+        MinWidth="150" Width="150" MaxWidth="150"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Minimized"
+        WindowStyle="None"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content="Загрузка..."/>
+    </Grid>
+</Window>

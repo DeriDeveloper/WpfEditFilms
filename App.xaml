@@ -1,0 +1,20 @@
+﻿<Application x:Class="WpfEditFilms.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfEditFilms"
+             StartupUri="LoadingStartUpWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="TextBoxInput" TargetType="TextBox">
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#A9A9A9"/>
+            <Setter Property="Background" Value="#F0F0F0"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style x:Key="PasswordBoxInput" TargetType="PasswordBox">
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#A9A9A9"/>
+            <Setter Property="Background" Value="#F0F0F0"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+    </Application.Resources>
+</Application>
